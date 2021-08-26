@@ -1,9 +1,10 @@
 import React from 'react'
+import './style.module.css'
 
 function Header() {
     return (
         <div>
-            <h1>MOVIES</h1>
+            <h1 className="{style.title}">MOVIES</h1>
         </div>
     )
 }
