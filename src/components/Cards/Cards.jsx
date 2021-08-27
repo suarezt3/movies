@@ -5,7 +5,7 @@ import movies from '../../movieList.json'
 function Cards(props) {  
     
 
-const moviesFilter = movies.filter((movie) => movie.genre_ids.includes(28))
+const moviesFilter = movies.filter((movie) => movie.genre_ids.includes(53))
 
     return (
         <div>
